@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+}
+button{
+    padding: 30px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 40px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    box-shadow:4px 3px 15px black;
+}
+button:hover{
+    background: radial-gradient(circle, rgba(148,187,233,1) 0%, rgba(238,174,202,1) 100%);
+    box-shadow: none;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: bolder;
+    text-align: center;
+}
